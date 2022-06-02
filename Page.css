@@ -1,0 +1,320 @@
+body{
+  height: 100%;
+  padding: 0;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+  
+}
+img{ border-radius: 10px;}
+
+.header {
+  background-color: #1f2937;
+}
+h3{	font-family:arial;
+	font-size:18px;
+color: #f9faf8;`  
+}
+
+.menu{	display:flex;
+	list-style:none;
+padding: 0px 210px;
+text-align: center;}
+
+#Nav ul{margin-left: 140px;}
+#Nav li{
+
+
+	list-style:none;
+padding: 0px 70px;
+float: left;}
+#Nav li a{
+	color:#f9faf8;
+	text-decoration: none;
+	transition: .3s;
+	font-family:arial;
+	font-size:18px;
+  padding: -22px;
+
+  margin-right: o;
+    margin-left: 0;
+}
+  
+  
+
+li a:hover{
+	background-color:#2e425a;
+	color:white;
+	padding:10px 10px 10px 10px;
+
+}
+.subhead{
+
+  display: flex;
+  text-align: left;
+  padding: 14px;
+  gap: 8px;
+  
+}
+.subcont1{
+ flex: 1;
+ padding: 0px 200px;
+ color: #f9faf8;
+ font-family: Arial, Helvetica, sans-serif;
+
+}
+.button1{font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  background:#3882f6;
+  width: 160px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: #E5E7EB;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0,0, 0.1);
+  -webkit-transition-duration: 0.3s;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+
+}
+.button1:hover, .button1:focus, button1:active{
+  box-shadow: 0 0 20px rgba(0, 0,0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.subcont2{
+ 
+  padding: 0px 100px;
+ 
+ }
+#logo{
+  display: flex;
+  width: 300px;
+  height: 170px;
+  
+}
+  
+.log{
+  background-color: #1f2937;
+  height: 200px;
+  flex: 1;
+}
+
+.content{
+
+  height: 350px;
+  text-align: center;
+ 
+}
+.content h1{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.images{
+  padding: 0 80px;
+  float: left;
+  width: 33.3%;
+  
+}
+@media only screen and (max-width: 700px) {
+  .images {
+      width: 49.99999%;
+      margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .images {
+      width: 100%;
+  }
+}
+
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+.clearspace:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+.disclaimer{
+  background-color: #E5E7EB;
+  color: #1f2937;
+  font-size: 30px;
+  font-weight: lighter;
+  font-style:normal;
+  padding-top: 15px;
+  padding-right: inherit;
+  padding-left: 40px;
+  padding-bottom: 5px;
+margin-top: 50px;
+}
+
+.disclaimer h3{
+  color: #1f2937;
+  font-size: 36px;
+  text-align: center;}
+
+.signup{
+  background-color: #3882f6;
+  display: flex;
+  padding-top: 9px;
+  padding-right: inherit;
+  padding-left: 50px;
+  padding-bottom: inherit;
+  border-radius: 10px;
+  margin: 80px 80px 70px 80px;
+      
+}
+
+.info{
+  flex: 1;
+  margin: 25px 70px;
+  padding-left: 20px;
+  color: #f9faf8;
+  font-family: "Roboto", sans-serif;
+}
+
+.signupbtn{
+  
+  flex: 1;
+  text-align: center;
+  padding-top: 25px;
+  margin: 25px 50px;
+}
+
+
+.button2{font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  background:#3882f6;
+  width: 160px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: #E5E7EB;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0,0, 0.1);
+  -webkit-transition-duration: 0.3s;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  border: 2px solid rgb(245, 245, 245);
+
+}
+
+.Footer{
+  background-color: #1f2937;
+  color: #E5E7EB;
+  text-align: center;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*div {
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #EEEEEE;
+    height: 100px;
+  }
+
+ 
+}
+.menu {display: flex;}
+#Nav li{
+	display:inline-block;
+	list-style:none;
+padding: 10px 70px;
+}
+
+
+.log{
+
+  display: flex;
+  height: 200px;
+  float:right;
+}
+
+#logo{
+
+  max-width: 150px;
+  max-height: 150px;
+}
+
+
+
+
+
+
+.content{
+  background-color: #ffffff;
+  height: 400px;
+
+}
+
+.img {
+
+  width: 33.3%;
+  text-align: center;
+  padding: 5px;
+  float: auto;
+  height:460px;
+}
+
+
+
+ */
